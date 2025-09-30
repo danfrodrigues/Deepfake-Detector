@@ -12,7 +12,7 @@ O projeto integra um backend em Python que carrega o modelo e processa imagens, 
 ## 📸 Demonstração
 ![Demonstração do projeto](frontend/public/example.gif)
 
-## O modelo classifica a imagem em ORIGINAL ou uma das técnicas de deepfake:
+### O modelo classifica a imagem em ORIGINAL ou uma das técnicas de deepfake:
 - FACE2FACE
 - FACESHIFTER
 - FACESWAP

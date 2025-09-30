@@ -205,3 +205,23 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos de cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Modelos treinados (pesados)
+backend/models/
+*.pth
+
+# Dados temporários
+*.DS_Store

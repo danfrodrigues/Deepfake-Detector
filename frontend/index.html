@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Detector de Deepfake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Detector de Deepfake</h1>
+    <form id="uploadForm">
+      <input type="file" id="fileInput" accept="image/*" required>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="preview">
+      <img id="previewImage" src="" alt="Pré-visualização" hidden>
+    </div>
+
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
